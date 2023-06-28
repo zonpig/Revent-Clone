@@ -1,0 +1,86 @@
+.app {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+  flex-direction: column;
+  width: 400px;
+  max-width: 90%;
+  height: 90%;
+  max-height: 600px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.receipt-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 10;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.app-download-group {
+  flex: 2;
+  width: 100%;
+  text-align: center;
+}
+
+.catIcon {
+  height: 70px;
+  width: fit-content;
+}
+
+.title {
+  font-size: 32px;
+  color: '#AEDFCC';
+}
+
+.normalText {
+  color: '#000000';
+  font-size: 16px;
+}
+
+.header-group {
+  text-align: center;
+  margin-top:  20px;
+  margin-bottom: 20px;
+  padding-left:  20px;
+  padding-right: 20px;
+}
+
+.body-group {
+  flex-grow: inherit;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow-y: scroll;
+}
+
+.amountContainer {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: flex-end;
+}
+
+.orderItemContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.google {
+  margin-top: 10px;
+  height: 50px;
+  object-fit: contain;
+}
